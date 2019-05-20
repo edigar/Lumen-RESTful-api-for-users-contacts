@@ -108,7 +108,6 @@ HTTP 200
 ```
 ```JSON
 {
-    {
     "name": ,               //User name
     "email": ,              //User e-mail
     "celphone_number": ,    //User celphone number
@@ -148,7 +147,6 @@ HTTP 201
 ```
 ```JSON
 {
-    {
     "name": "User name",
     "email": "email@email.com",
     "celphone_number": "(99)999999999",
@@ -180,7 +178,6 @@ HTTP 200
 ```
 ```JSON
 {
-    {
     "name": "User name",
     "email": "email@email.com",
     "celphone_number": "(11)111111111",
