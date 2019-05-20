@@ -218,7 +218,7 @@ body: none
 ```
 HTTP 200
 ```
-```
+```JSON
 {
     "current_page": 2,  //Current page number
     "data": [],         //Array of users data object
