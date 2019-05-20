@@ -79,7 +79,7 @@ body: none
 ```
 HTTP 200
 ```
-```
+```JSON
 {
     "current_page": ,   //Current page number
     "data": [],         //Array of users data object
@@ -106,7 +106,7 @@ body: none
 ```
 HTTP 200
 ```
-```
+```JSON
 {
     {
     "name": ,               //User name
@@ -128,7 +128,7 @@ HTTP 200
 
 *Obs.: email and celphone_number are required*
 
-```
+```JSON
 POST /api/users
 headers: Content-Type: application/json
 body:
@@ -146,7 +146,7 @@ body:
 ```
 HTTP 201
 ```
-```
+```JSON
 {
     {
     "name": "User name",
@@ -178,7 +178,7 @@ body:
 ```
 HTTP 200
 ```
-```
+```JSON
 {
     {
     "name": "User name",
