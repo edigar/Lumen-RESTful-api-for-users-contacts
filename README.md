@@ -69,7 +69,9 @@ Below is the list of available calls.
 
 ### HTTP Request & Response Service
 
-**REQUEST (Listing all users)**
+#### Listing all users
+
+**REQUEST**
 ```
 GET /api/users
 headers: Content-Type: application/json
@@ -79,7 +81,7 @@ body: none
 ```
 HTTP 200
 ```
-```JSON
+```
 {
     "current_page": ,   //Current page number
     "data": [],         //Array of users data object
@@ -96,7 +98,9 @@ HTTP 200
 }
 ```
 
-**REQUEST (Getting data from a single user)**
+#### Getting data from a single user
+
+**REQUEST**
 ```
 GET /api/users/{id}
 headers: Content-Type: application/json
@@ -106,7 +110,7 @@ body: none
 ```
 HTTP 200
 ```
-```JSON
+```
 {
     "name": ,               //User name
     "email": ,              //User e-mail
@@ -123,7 +127,9 @@ HTTP 200
 }
 ```
 
-**REQUEST (Creating a new user)**
+#### Creating a new user
+
+**REQUEST**
 
 *Obs.: email and celphone_number are required*
 
@@ -162,7 +168,9 @@ HTTP 201
 }
 ```
 
-**REQUEST (Updating a user)**
+#### Updating a user
+
+**REQUEST**
 ```
 PUT /api/users/{id}
 headers: Content-Type: application/json
@@ -193,7 +201,9 @@ HTTP 200
 }
 ```
 
-**REQUEST (Deleting a user)**
+#### Deleting a user
+
+**REQUEST**
 ```
 DELETE /api/users/{id}
 headers: Content-Type: application/json
@@ -218,7 +228,7 @@ body: none
 ```
 HTTP 200
 ```
-```JSON
+```
 {
     "current_page": 2,  //Current page number
     "data": [],         //Array of users data object
